@@ -13,6 +13,13 @@ import vectorImg from './img.png';
 import logo from './logo.png';
 import home from './home.png';
 import searchIcon from './search-icon.gif'
+import aboutusimg1 from './aboutusImg1.png'
+import aboutusimgGoal from './aboutusimgGoal.png'
+import aboutusimgMission from './aboutusimgMission.png'
+import aboutusimgtraining from './aboutusimgtraining.png'
+import aboutusimgVision from './aboutusimgVision.png'
+import aboutusimgPlacement from './aboutusimgPlacement.png'
+import aboutusimgConsultant from './aboutusimgConsultant.png'
 
 export {
 	get_find,
@@ -29,5 +36,12 @@ export {
 	vectorImg,
 	logo,
 	home,
-	searchIcon
+	searchIcon,
+	aboutusimg1,
+	aboutusimgGoal,
+	aboutusimgMission,
+	aboutusimgtraining,
+	aboutusimgVision,
+	aboutusimgPlacement,
+	aboutusimgConsultant
 };

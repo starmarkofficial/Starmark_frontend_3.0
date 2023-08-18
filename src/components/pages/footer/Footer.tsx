@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../../../assets/images/starmark.png'
 function Footer() {
   function f(){
 		alert("button click");
@@ -7,7 +8,7 @@ function Footer() {
   return (
     <div>
       <div className="footer-container bg-indigo-50 my-0 pt-12 pt-10 px-8 sm:mx-auto flex flex-col  justify-center">
-				<img src={"hh"} className='mx-auto'/>
+				<img src={logo} className='mx-auto'/>
 				<div className="footer-content mt-12">
 					<ul className="content-list flex flex-wrap justify-center gap-8 md:gap-20 sm:gap-4 mx-auto">
 						<li className='text-xl font-medium text-gray-700 font-sans' onClick={f}>Jobs</li>

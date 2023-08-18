@@ -1,12 +1,12 @@
 import React from 'react'
-
+import logo from '../../../assets/images/starmark.png'
 function NavBar() {
   return (
     <div>
      <nav className="relative px-4 md:py-4 lg:py-4 sm:py-4 2xl:py-4 flex justify-between 
 		items-center bg-white shadow md:shadow-lg">
 		<a className="text-3xl font-bold leading-none" href="#">
-			<img className='h-10 w-32'  alt="" />
+			<img className={logo}  alt="" />
 		</a>
 		<div className="lg:hidden">
 			<button className="navbar-burger flex items-center text-blue-600 ">
@@ -82,7 +82,7 @@ function NavBar() {
 					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
 				</svg>
 			</li>
-			<li><a className="text-sm text-gray-400  hover:text-gray-500" href="#">About Us</a></li>
+			<li><a className="text-sm text-gray-400  hover:text-gray-500" href="/About">About Us</a></li>
 			<li className="text-gray-300">
 				<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" className="w-4 h-4 current-fill" viewBox="0 0 24 24">
 					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
